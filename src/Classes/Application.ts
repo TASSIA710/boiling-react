@@ -1,7 +1,7 @@
 // Boiling React - (c) 2021 Tassilo <tassia710@gmail.com>
 // Licensed under the MIT License.
 
-import {Logger, Route, Router} from "../index";
+import {Cookies, Logger, Route, Router} from "../index";
 
 /**
  * Defines an application on an abstract level.
@@ -10,6 +10,11 @@ import {Logger, Route, Router} from "../index";
  * @author Tassilo
  */
 export abstract class Application {
+
+	/**
+	 * The {@link Cookies} of this application.
+	 */
+	public readonly Cookies: Cookies = new Cookies();
 
 	/**
 	 * The {@link Logger} of this application.
