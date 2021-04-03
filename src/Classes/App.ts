@@ -12,7 +12,6 @@ import {Application, Cookies, Logger, Router} from "../index";
 export class App {
 
 	private static application: Application;
-	public static readonly Cookies: Cookies = new Cookies();
 
 	/**
 	 * Static class.
@@ -32,6 +31,10 @@ export class App {
 	}
 
 
+
+	public static Cookies(): Cookies {
+		return App.Application().Cookies;
+	}
 
 	public static Logger(): Logger {
 		return App.Application().Logger;
