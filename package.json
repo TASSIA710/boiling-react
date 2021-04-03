@@ -1,6 +1,6 @@
 {
 	"name": "@tassilo/boiling-react",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Boilerplate code for React.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
