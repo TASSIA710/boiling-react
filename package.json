@@ -1,5 +1,5 @@
 {
-	"name": "boiling-react",
+	"name": "@tassilo/boiling-react",
 	"version": "1.0.0",
 	"description": "Boilerplate code for React.",
 	"main": "index.js",
