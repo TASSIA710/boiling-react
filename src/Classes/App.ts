@@ -51,12 +51,17 @@ export class App {
 	 *
 	 * @param path the path to go to
 	 * @param reload whether to actually refresh the website
+	 * @param newTab whether to open the link in a new tab
 	 */
-	public static async Redirect(path: string, reload: boolean = false): Promise<void> {
-		if (reload) {
-			document.location.href = path;
+	public static async Redirect(path: string, reload: boolean = false, newTab: boolean = false): Promise<void> {
+		if (newTab) {
+			window.open(path);
 		} else {
-			await App.Router().Route(path);
+			if (reload) {
+				document.location.href = path;
+			} else {
+				await App.Router().Route(path);
+			}
 		}
 	}
 
