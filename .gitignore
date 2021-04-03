@@ -5,6 +5,9 @@ node_modules/
 .idea/
 *.iml
 
+# Build Output
+dist/
+
 
 
 # Lockfiles (I know some consider this bad habit, but I like to keep my repositories
