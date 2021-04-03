@@ -9,3 +9,5 @@ export {Cookies} from "./Classes/Cookies";
 export {Logger} from "./Classes/Logger";
 export {Route} from "./Classes/Route";
 export {Router} from "./Classes/Router";
+
+export {Link} from "./Components/Link";
