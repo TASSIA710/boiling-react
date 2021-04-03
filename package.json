@@ -1,6 +1,6 @@
 {
 	"name": "boiling-react",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "Boilerplate code for React.",
 	"main": "index.js",
 	"dependencies": {
