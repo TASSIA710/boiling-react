@@ -1,0 +1,22 @@
+{
+	"name": "boiling-react",
+	"version": "0.0.1",
+	"description": "Boilerplate code for React.",
+	"main": "index.js",
+	"dependencies": {
+		"typescript": "^4.0.3"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TASSIA710/boiling-react.git"
+	},
+	"author": "Tassilo",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/TASSIA710/boiling-react/issues"
+	},
+	"homepage": "https://github.com/TASSIA710/boiling-react#readme"
+}
