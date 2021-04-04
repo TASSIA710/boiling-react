@@ -47,6 +47,26 @@ export class App {
 
 
 	/**
+	 * Updates the current window title.
+	 *
+	 * @param title the new window title
+	 */
+	public static SetTitle(title: string) {
+		document.title = title;
+	}
+
+	/**
+	 * Returns the current window title.
+	 *
+	 * @return the window title
+	 */
+	public static GetTitle(): string {
+		return document.title;
+	}
+
+
+
+	/**
 	 * Redirects to another part of the application.
 	 *
 	 * @param path the path to go to
