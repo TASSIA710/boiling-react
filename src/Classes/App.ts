@@ -60,6 +60,7 @@ export class App {
 			if (reload) {
 				document.location.href = path;
 			} else {
+				window.history.pushState("", App.Application().Name, path);
 				await App.Router().Route(path);
 			}
 		}
