@@ -29,16 +29,16 @@ export abstract class Application {
 	/**
 	 * The name of this application.
 	 */
-	public readonly Name: String;
+	public readonly Name: string;
 
 	/**
 	 * The version of this application.
 	 */
-	public readonly Version: String;
+	public readonly Version: string;
 
 
 
-	protected constructor(name: String, version: String) {
+	protected constructor(name: string, version: string) {
 		this.Name = name;
 		this.Version = version;
 	}
